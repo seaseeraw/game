@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Game</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="lottery-container">
+        <h1>🎰 Lottery Game 🎰</h1>
+        <p>Click the button to try your luck!</p>
+
+        <button id="drawBtn">Draw Number</button>
+
+        <div class="numbers-container">
+            <p>Your Number: <span id="userNumber">-</span></p>
+            <p>Winning Number: <span id="winningNumber">-</span></p>
+        </div>
+
+        <p id="result"></p>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+            <h2>Scoreboard</h2>
+            <p>Wins: <span id="winCount">0</span></p>
+            <p>Losses: <span id="lossCount">0</span></p>
+        </div>
+    </div>
+
+    <audio id="winSound" src="assets/sounds/win.mp3"></audio>
+    <audio id="loseSound" src="assets/sounds/lose.mp3"></audio>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.lottery-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.numbers-container {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+span {
+    font-weight: bold;
+    font-size: 22px;
+    color: #222;
+    transition: transform 0.5s ease-in-out;
+    display: inline-block;
+}
+
+span.animate {
+    transform: scale(1.5);
+    color: #ff6600;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.scoreboard {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
